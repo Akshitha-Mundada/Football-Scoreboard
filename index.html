@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets-->
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Football Scoreboard</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-8 col-sm-10 col-12 mx-auto" id="scoreboard">
+                <div class="home">
+                    <h3>Home</h3>
+                    <center>
+                        <div class="score">
+                            <span id="homeScore">0</span>
+                        </div>
+                    </center>
+                    <center>
+                        <div class="increment">
+                            <button class="increment-btn" id="increment1" onclick="add1(homeScore)">+1</button>
+                            <button class="increment-btn" id="increment2" onclick="add2(homeScore)">+2</button>
+                            <button class="increment-btn" id="increment3" onclick="add3(homeScore)">+3</button>
+                        </div>
+                    </center>
+                </div>
+                <div class="guest">
+                    <h3>Guest</h3>
+                    <center>
+                        <div class="score">
+                            <span id="guestScore">0</span>
+                        </div>
+                    </center>
+                    <center>
+                        <div class="increment">
+                            <button class="increment-btn" id="increment1" onclick="add1(guestScore)">+1</button>
+                            <button class="increment-btn" id="increment2" onclick="add2(guestScore)">+2</button>
+                            <button class="increment-btn" id="increment3" onclick="add3(guestScore)">+3</button>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript File-->
+    <script src="index.js"></script>
+</body>
+
+</html>

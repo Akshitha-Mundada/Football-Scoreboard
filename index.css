@@ -1,0 +1,78 @@
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url('CursedTimerULiL.woff');
+}
+
+#scoreboard{
+    background-color: #242f6c;
+    padding: 60px 30px !important;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#scoreboard h3{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.score{
+    margin-top: 20%;
+    width: 155px;
+    height: 120px;
+
+    background: #080001;
+    border-radius: 5px;
+    font-family: "CursedTimerUlil-Aznm", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.increment-btn{
+    box-sizing: border-box;
+    margin-top: 20%;
+    width: 45px;
+    height: 45px;
+
+    border: 2px solid #9AABD8 !important;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+@media (width < 576px) {
+    #scoreboard{
+        background-color: #242f6c;
+        padding: 60px 30px !important;
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .increment-btn{
+        margin-bottom: 10%;
+    }
+}
